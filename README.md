@@ -130,42 +130,6 @@ ML: Scikit-learn
 Data Processing: Pandas, NumPy
 Logging: JSON-based logging system
 
-## Project Structure
-
-Context_Engine/
-│
-├── app/
-│   ├── main.py
-│   ├── routes.py
-│   └── models.py
-│
-├── context/
-│   ├── extractor.py
-│   ├── classifier.py
-│   ├── fusion.py
-│   ├── encoder.py
-│   ├── ml_model.py
-│   ├── rules/
-│   ├── analytics/
-│   └── utils/
-│
-├── dashboard/
-│   └── app.py
-│
-├── logs/
-│   └── decisions.jsonl
-│
-├── src/
-│   ├── train.py
-│   ├── preprocess.py
-│   ├── risk_model.pkl
-│   └── encoders.pkl
-│
-├── scripts/
-│   └── dataset_generator.py
-│
-└── requirements.txt
-
 
 How to Run
 1. Start Backend (FastAPI)
