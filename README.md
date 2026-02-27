@@ -130,7 +130,8 @@ ML: Scikit-learn
 Data Processing: Pandas, NumPy
 Logging: JSON-based logging system
 
-Project Structure
+## Project Structure
+
 Context_Engine/
 │
 ├── app/
@@ -164,6 +165,7 @@ Context_Engine/
 │   └── dataset_generator.py
 │
 └── requirements.txt
+
 
 How to Run
 1. Start Backend (FastAPI)
